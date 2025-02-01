@@ -1,11 +1,11 @@
-Update <title>Blinkies!</title> with your website name.
-Update <meta property=url content=https://www.Blinkies-closed-species.com/Blinkies/> with your intended site URL.
-Update <meta name="description" content=Blinkies, Buttons, and more! Connect with other Blinkies and make friends! Enjoy yummy jellies, but make sure it's not rotton...> with your site's description.
+<title>Blinkies!</title> with your website name.
+<meta property=url content=https://www.Blinkies-closed-species.com/Blinkies/> with your intended site URL.
+<meta name="description" content=Blinkies, Buttons, and more! Connect with other Blinkies and make friends! Enjoy yummy jellies, but make sure it's not rotton...> with your site's description.
  
 
 config.js
 
-sheetID:1ovRAJwwDWggcfn7Ax1UbKbCUvDxrnEPuot5bqzgXViY/htmlview
+<sheetID:1ovRAJwwDWggcfn7Ax1UbKbCUvDxrnEPuot5bqzgXViY>
  
 
 Includes folder

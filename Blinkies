@@ -1,11 +1,11 @@
 Update <title>Blinkies!</title> with your website name.
-Update <meta property="url" content=https://www.Blinkies-closed-species.com/Blinkies/> with your intended site URL.
-Update <meta name="description" content="A tool for organizing small ARPGs and species."> with your site's description.
+Update <meta property=url content=https://www.Blinkies-closed-species.com/Blinkies/> with your intended site URL.
+Update <meta name="description" content=Blinkies, Buttons, and more! Connect with other Blinkies and make friends! Enjoy yummy jellies, but make sure it's not rotton...> with your site's description.
  
 
 config.js
 
-Update sheetID: "1ovRAJwwDWggcfn7Ax1UbKbCUvDxrnEPuot5bqzgXViY/htmlview", with your sheet's ID.
+sheetID:1ovRAJwwDWggcfn7Ax1UbKbCUvDxrnEPuot5bqzgXViY/htmlview
  
 
 Includes folder

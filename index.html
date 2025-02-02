@@ -3,34 +3,28 @@
 <head>
   <title>Blinkies!</title>
   <meta property="url" content="https://blinkies-cs.github.io/Blinkies/">
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-}
-
-.parallax {
-  /* The image used */
-  background-image: url(https://media-hosting.imagekit.io//2df7f77d6255471f/IMG_8397.jpeg?Expires=1833088114&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=txK~aiafbEq-7hh4m8tmAJE3lemzzaEGUT4s1Jn2i3l3enAKq9tUzhLSVjmu3V0ZkkitYKELFfD9wek1T1M5UmaABbHwhXB8OTOPKPV7ehLGV4Go8xyKqSPCs2J9FQkNKdD1oKItv8viHJ3XrQ1Q1C0piSkT9mZSPvUhDquPyhHkSj0C5B1HfcyXF1y8qPJVUxkpjHpyTxMVamTAwWc2z0EmM16WVwzh4EnOWlapnIAk6Fq4~Dn1hx0Vab2byMTt9gDmVikqtVkqi5NHzVMIBhnfWMazTxpnyLO7iNo6cOPmUvRKqPY30MuvESQzJ8cu1GOD6hMVF7sYTGDpShF-wQ);
-
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
+  <style>
+   html, body {
+      height: 100%; /* Ensure the html and body elements take up full height */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      overflow-x: hidden; /* Disable horizontal scrolling */
+    }
+    body {
+      background-image: url("https://media-hosting.imagekit.io//2df7f77d6255471f/IMG_8397.jpeg?Expires=1833088114&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=txK~aiafbEq-7hh4m8tmAJE3lemzzaEGUT4s1Jn2i3l3enAKq9tUzhLSVjmu3V0ZkkitYKELFfD9wek1T1M5UmaABbHwhXB8OTOPKPV7ehLGV4Go8xyKqSPCs2J9FQkNKdD1oKItv8viHJ3XrQ1Q1C0piSkT9mZSPvUhDquPyhHkSj0C5B1HfcyXF1y8qPJVUxkpjHpyTxMVamTAwWc2z0EmM16WVwzh4EnOWlapnIAk6Fq4~Dn1hx0Vab2byMTt9gDmVikqtVkqi5NHzVMIBhnfWMazTxpnyLO7iNo6cOPmUvRKqPY30MuvESQzJ8cu1GOD6hMVF7sYTGDpShF-wQ__");
+      background-size: 100% 250%; /* Fit the width of the viewport */
+      background-repeat: no-repeat;
+      background-position: top center; 
+      background-attachment: scroll; /* Allow scrolling */
+      height: auto;
+      overflow-y: scroll; /* Allow vertical scrolling */
+    }
+        .content {
+      height: 225vh; /* Set a height that requires scrolling */
+    }
+  </style>
 </head>
 <body>
-
-<div class="parallax"></div>
-
-<div class="parallax"></div>
-
+  <div class="content"></div>
 </body>
 </html>
